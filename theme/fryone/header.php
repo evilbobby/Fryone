@@ -81,12 +81,16 @@
   </div><!--end page-navigation-bg-->
   <div class="wrapper big">
     <div id="header" class="clear">
-      <div class="logo">
-        <?php if (is_home()) echo('<h1 id="title">'); else echo('<div id="title">');?><a href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a><?php if (is_home()) echo('</h1>'); else echo('</div>');?>
-        <div id="description">
-          <?php bloginfo('description'); ?>
-        </div><!--end description-->
+      
+	  
+	  <a href="<?php bloginfo('url'); ?>">
+	  <div class="logo">
+ 
       </div><!--end logo-->
+	    </a>
+	  
+	  
+	  
       <div id="cat-nav" class="clear">
         <ul class="nav">
           <?php if ($traction->hideCategories() != 'true') : ?>

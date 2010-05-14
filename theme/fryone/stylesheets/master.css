@@ -77,7 +77,13 @@ div.skip-content { display: none; }
 /*Header
 ------------------------------------------------------------ */
 #header { padding-bottom: 20px; }
-div.logo { float: left; }
+div.logo { 
+	background:transparent url(../images/fryone_web_hdr.jpg) no-repeat scroll center top;
+	float:left;
+	height:90px;
+	padding:0 5px 0 0;
+	width:955px;
+}
 h1#title, div#title, div.logo img {
   padding: 30px 0 0 20px;
   font-size: 3em;
@@ -107,7 +113,7 @@ div#cat-nav {
   clear: both;
   float: left;
   width: 960px;
-  margin: 30px 0 0 0;
+  margin: 20px 0 0 0;
   background: url(../images/nav.png) no-repeat bottom center;
 }
 .nav {
