@@ -37,7 +37,7 @@
   </div><!--end wrapper-->
 </div><!--end footer-->
 <div id="copyright" class="wrapper">
-        <p class="credit"><a href="http://thethemefoundry.com/traction/">Traction Theme</a> by <a href="http://thethemefoundry.com">The Theme Foundry</a></p>
+      
         <p><?php _e('Copyright', 'traction') ?> &copy; <?php echo date('Y') ?> <?php echo $traction->copyrightName(); ?>. All rights reserved.</p>    
 </div><!--end copyright-->
 
